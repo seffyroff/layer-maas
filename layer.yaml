@@ -1,0 +1,18 @@
+includes:
+  - 'layer:basic'
+  - 'layer:snap'
+  - 'layer:leadership'
+  - 'interface:pgsql'
+  - 'interface:maas'
+  - 'interface:http'
+options:
+  snap:
+    maas:
+      channel: stable
+      devmode: false
+      jailmode: false
+      dangerous: false
+      classic: true
+      revision: null
+
+repo: "https://github.com/jamesbeedy/layer-maas-region"

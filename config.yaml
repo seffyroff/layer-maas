@@ -1,0 +1,26 @@
+options:
+  maas-mode:
+    type: string
+    default: "all"
+    description: |
+      Type of maas node. Valid options are, (region, rack, region+rack, all)
+  maas-url:
+    type: string
+    default: ""
+    description: |
+      MAAS url       
+  admin-username:
+    type: string
+    default: "admin"
+    description: |
+        Initial admin user username.
+  admin-password:
+    type: string
+    default: "mysecret"
+    description: |
+        Initial admin user password.
+  admin-email:
+    type: string
+    default: "admin@admin.com"
+    description: |
+        Initial admin user email

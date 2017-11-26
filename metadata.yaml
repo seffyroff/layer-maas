@@ -1,0 +1,21 @@
+name: maas
+summary: Metal as a Service
+maintainer: James Beedy <jamesbeedy@gmail.com>
+description: |
+  Metal as a Service
+tags:
+  - maas
+  - metal
+series:
+- xenial
+subordinate: false
+requires:
+  postgresql:
+    interface: "pgsql"
+  rack:
+    interface: "maas"
+provides:
+  region:
+    interface: "maas"
+  http:
+    interface: "http"
