@@ -1,7 +1,0 @@
-config-maas-url: 
-  description: Configure the maas-url (for HA region controllers - set to loadbalancer ip)
-  params:
-    maas-url:
-      type: string
-      description: The MAAS region url to use
-  required: [maas-url]
