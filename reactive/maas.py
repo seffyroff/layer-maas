@@ -176,12 +176,11 @@ def init_non_leader_region_or_region_rack():
                'Configuring MAAS-{}'.format(config('maas-mode')))
 
     init_ctxt = {'maas_url': maas_url(),
-                 'maas_mode': config('maas-mode')}
-
-    init_ctxt['db_host'] = kv.get('db_host')
-    init_ctxt['db_name'] = kv.get('db_name')
-    init_ctxt['db_pass'] = kv.get('db_pass')
-    init_ctxt['db_user'] = kv.get('db_user')
+                 'maas_mode': config('maas-mode'),
+                 'db_host': kv.get('db_host'),
+                 'db_name': kv.get('db_name'),
+                 'db_pass': kv.get('db_pass'),
+                 'db_user': kv.get('db_user')}
 
     cmd_init = ('maas config --maas-url {maas_url} --database-host {db_host} '
                 '--database-name {db_name} --database-user {db_user} '
