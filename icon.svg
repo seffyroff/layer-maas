@@ -12,9 +12,9 @@
    version="1.1"
    x="0px"
    y="0px"
-   width="1190.551px"
-   height="841.89px"
-   viewBox="0 0 1190.551 841.89"
+   width="198.42599"
+   height="198.42599"
+   viewBox="0 0 198.42599 198.42599"
    enable-background="new 0 0 1190.551 841.89"
    xml:space="preserve"
    id="svg3819"
@@ -22,7 +22,7 @@
    inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
    id="metadata3825"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
    id="defs3823">
 	
 
@@ -38,22 +38,27 @@
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
    inkscape:window-width="1920"
-   inkscape:window-height="1167"
+   inkscape:window-height="1017"
    id="namedview3821"
    showgrid="false"
    inkscape:zoom="0.99062821"
-   inkscape:cx="488.77744"
-   inkscape:cy="420.94501"
-   inkscape:window-x="0"
-   inkscape:window-y="4"
+   inkscape:cx="285.56798"
+   inkscape:cy="101.44607"
+   inkscape:window-x="1920"
+   inkscape:window-y="30"
    inkscape:window-maximized="1"
-   inkscape:current-layer="svg3819" />
+   inkscape:current-layer="svg3819"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0" />
 <g
-   id="artwork">
+   id="artwork"
+   transform="translate(-203.20946,-323.96508)">
 </g>
 <g
    id="g3804"
-   transform="translate(1.0094604,-2.0189209)">
+   transform="translate(-202.2,-325.984)">
 			<g
    id="g3792">
 				<path
