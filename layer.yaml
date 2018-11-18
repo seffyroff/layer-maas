@@ -7,12 +7,19 @@ includes:
   - 'interface:http'
 options:
   snap:
-    maas:
-      channel: stable
+    core:
+      channel: candidate
       devmode: false
       jailmode: false
       dangerous: false
-      classic: true
+      classic: false
+      revision: null
+    maas:
+      channel: edge
+      devmode: true
+      jailmode: false
+      dangerous: false
+      classic: false
       revision: null
 
-repo: "https://github.com/jamesbeedy/layer-maas-region"
+repo: "https://github.com/seffyroff/layer-maas-region"

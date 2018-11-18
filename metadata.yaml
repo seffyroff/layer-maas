@@ -1,13 +1,14 @@
-name: maas
+name: layer-maas
+display-name: maas
 summary: Metal as a Service
-maintainer: James Beedy <jamesbeedy@gmail.com>
+maintainer: Phil Merricks <seffyroff@gmail.com>
 description: |
   Metal as a Service
 tags:
   - maas
   - metal
 series:
-- xenial
+- bionic
 subordinate: false
 requires:
   postgresql:
