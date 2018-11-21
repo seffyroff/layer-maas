@@ -1,5 +1,5 @@
-name: layer-maas
-display-name: maas
+name: layer-maas-region-lxd
+display-name: MAAS Region Controller
 summary: Metal as a Service
 maintainer: Phil Merricks <seffyroff@gmail.com>
 description: |
