@@ -1,25 +1,11 @@
 includes:
   - 'layer:basic'
-  - 'layer:snap'
+  - 'layer:apt'
   - 'layer:leadership'
-  - 'interface:pgsql'
   - 'interface:maas'
-  - 'interface:http'
+  # - 'interface:http'
 options:
-  snap:
-    core:
-      channel: candidate
-      devmode: false
-      jailmode: false
-      dangerous: false
-      classic: false
-      revision: null
-    maas:
-      channel: edge
-      devmode: true
-      jailmode: false
-      dangerous: false
-      classic: false
-      revision: null
-
-repo: "https://github.com/seffyroff/layer-maas-region"
+  apt:
+    packages:
+      - maas-rack-controller
+repo: https://www.github.com/seffyroff/layer_maas_rack_lxd/

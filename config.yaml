@@ -1,7 +1,14 @@
 options:
+  install_sources:
+    "description": "List of extra apt sources, per charm-helpers standard format (a\
+    \ yaml list of strings encoded as a string). Each source may be either a line\
+    \ that can be added directly to sources.list(5), or in the form ppa:<user>/<ppa-name>\
+    \ for adding Personal Package Archives, or a distribution component to enable.\n"
+    "type": "string"
+    "default": "ppa: maas/next"
   maas-mode:
     type: string
-    default: "all"
+    default: "rack"
     description: |
       Type of maas node. Valid options are, (region, rack, region+rack, all)
   maas-url:

@@ -1,5 +1,0 @@
-# maas-config.yaml
-maas-region:
-  maas-mode: "region"
-maas-rack:
-  maas-mode: "rack"

@@ -1,5 +1,5 @@
-name: layer-maas
-display-name: maas
+name: layer-maas-rack-lxd
+display-name: MAAS Rack Controller
 summary: Metal as a Service
 maintainer: Phil Merricks <seffyroff@gmail.com>
 description: |
@@ -11,12 +11,12 @@ series:
 - bionic
 subordinate: false
 requires:
-  postgresql:
-    interface: "pgsql"
-  rack:
-    interface: "maas"
-provides:
+  # postgresql:
+  #   interface: "pgsql"
   region:
     interface: "maas"
-  http:
-    interface: "http"
+provides:
+  rack:
+    interface: "maas"
+  # http:
+  #   interface: "http"
